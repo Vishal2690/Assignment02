@@ -1,0 +1,533 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(251, 243, 232);
+}
+
+.text{
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    justify-content: center;
+    margin-top: 20px;
+    transform: translateZ(20px);
+    animation-name: animated1;
+    animation-timing-function: ease;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
+@keyframes animated1{
+    from{
+        transform-origin: translateX(20px);
+        
+    }
+    to{
+        transform: translateY(20px);
+    }
+}
+
+.container{
+    display: grid;
+    height: 100vh;
+    margin-top: 50px;
+    grid-template-columns: repeat(4, 270px);
+    grid-template-rows: repeat(2, 400px);
+    column-gap: 50px;
+    row-gap: 20px;
+    justify-content: center;
+}
+
+.item{
+   border: 1px solid;
+}
+.item1{
+    background-image: url(HTML.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item1 .test1{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item1 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item1:hover{
+    background-color: blue;
+}
+.item1:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+/* second */
+
+.item2{
+    background-image: url(CSS.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item2 .test2{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item2 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item2:hover{
+    background-color: blue;
+}
+.item2:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+/* third */
+
+.item3{
+    background-image: url(REACT.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item3 .test3{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item3 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item3:hover{
+    background-color: blue;
+}
+.item3:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+
+
+.item4{
+    background-image: url(NODE.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item4 .test4{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item4 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item4:hover{
+    background-color: blue;
+}
+.item4:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+/* next row */
+
+.item5{
+    background-image: url(HTML.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item5 .test5{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item5 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item5:hover{
+    background-color: blue;
+}
+.item5:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+
+
+.item6{
+    background-image: url(CSS.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item6 .test6{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item6 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item6:hover{
+    background-color: blue;
+}
+.item6:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+/* third */
+
+.item7{
+    background-image: url(REACT.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item7 .test7{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item7 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item7:hover{
+    background-color: blue;
+}
+.item7:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+
+
+.item8{
+    background-image: url(NODE.png);
+    background-repeat: no-repeat;
+    background-size: 100px;
+    background-position-x: center;
+    background-position-y: 10px;
+    background-color: rgb(207, 236, 208);
+    box-shadow: 2px 2px 3px gray;
+}
+
+.item8 .test8{
+    text-align: center;
+    padding-top: 150px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+.lore{
+    text-align: center;
+    padding: 20px;
+    margin: 0px auto;
+}
+.item8 button{
+    padding: 2px 10px;
+    color: white;
+    background-color: blue;
+    border-radius: 10px;
+    position: relative;
+    top: 19px;
+    left: 5rem;
+    font-weight: bold;
+}
+.lore:hover{
+    color: white;
+}
+
+.item8:hover{
+    background-color: blue;
+}
+.item8:hover button{
+    background-color: rgb(162, 162, 211);
+    color: blue;
+}
+
+@media screen and (min-width: 250px) and (max-width: 480px){
+    .container{
+        grid-template-columns: 270px;
+        grid-template-rows: 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .item1 button{
+        position: relative;
+        top: -10px;
+    }
+    .item2 button{
+        position: relative;
+        top: -10px;
+    }
+    .item3 button{
+        position: relative;
+        top: -10px;
+    }
+    .item4 button{
+        position: relative;
+        top: -10px;
+    }
+    .item5 button{
+        position: relative;
+        top: -10px;
+    }
+    .item6 button{
+        position: relative;
+        top: -10px;
+    }
+    .item7 button{
+        position: relative;
+        top: -10px;
+    }
+    .item8 button{
+        position: relative;
+        top: -10px;
+    }
+}
+
+@media screen and (min-width: 480px) and (max-width: 800px){
+    .container{
+        grid-template-columns: 230px 230px;
+        grid-template-rows: 400px 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .item1 button{
+        position: relative;
+        top: -10px;
+    }
+    .item2 button{
+        position: relative;
+        top: -10px;
+    }
+    .item3 button{
+        position: relative;
+        top: -10px;
+    }
+    .item4 button{
+        position: relative;
+        top: -10px;
+    }
+    .item5 button{
+        position: relative;
+        top: -10px;
+    }
+    .item6 button{
+        position: relative;
+        top: -10px;
+    }
+    .item7 button{
+        position: relative;
+        top: -10px;
+    }
+    .item8 button{
+        position: relative;
+        top: -10px;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 1200px){
+    .container{
+        grid-template-columns: 230px 230px 230px;
+        grid-template-rows: 400px 400px;
+        justify-content: center;
+        align-items: center;
+    }
+    .item1 button{
+        position: relative;
+        top: -10px;
+    }
+    .item2 button{
+        position: relative;
+        top: -10px;
+    }
+    .item3 button{
+        position: relative;
+        top: -10px;
+    }
+    .item4 button{
+        position: relative;
+        top: -10px;
+    }
+    .item5 button{
+        position: relative;
+        top: -10px;
+    }
+    .item6 button{
+        position: relative;
+        top: -10px;
+    }
+    .item7 button{
+        position: relative;
+        top: -10px;
+    }
+    .item8 button{
+        position: relative;
+        top: -10px;
+    }
+}
